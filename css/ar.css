@@ -1,0 +1,77 @@
+body {
+
+    text-align: right;
+    direction:rtl;
+  }
+
+
+.float-left {
+    float: right !important;
+  }
+
+  .float-right {
+    float: left !important;
+  }
+
+
+  .ml-auto,
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+
+.text-left {
+    text-align: right !important;
+  }
+
+
+
+  .text-right {
+    text-align: left !important;
+  }
+
+  .main-menu li {
+    border-right: 1px solid rgb(69, 149, 214);
+    border-left: 0px solid rgb(69, 149, 214);
+}
+
+.row {
+
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+
+
+.pr-4{
+
+  padding-right: .5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+
+
+.dropdown-menu {
+
+  right: -30px;
+}
+
+
+.dropdown-toggle::after {
+  margin-left: 0em !important;
+  margin-right: 0.255em;
+}
+
+
+.dropdown-menu .show > .dropdown-toggle::after{
+  transform: rotate(90deg);
+}
+
+.md-form label {
+  position: absolute;
+  top: 0.65rem;
+  left:initial;
+  /* right:30px; */
+}
